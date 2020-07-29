@@ -41,20 +41,20 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBoxTotalAmountByn = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBoxAmountUsd = new System.Windows.Forms.TextBox();
-            this.textBoxAmountEuro = new System.Windows.Forms.TextBox();
-            this.textBoxAmountRub = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.buttonCountTotalAmountByn = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBoxAmountRub = new System.Windows.Forms.TextBox();
+            this.textBoxAmountEuro = new System.Windows.Forms.TextBox();
+            this.textBoxAmountUsd = new System.Windows.Forms.TextBox();
+            this.buttonOpenRubForm = new System.Windows.Forms.Button();
+            this.buttonOpenEuroForm = new System.Windows.Forms.Button();
+            this.buttonOpenUsdForm = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBoxTotalAmountByn = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -183,9 +183,9 @@
             this.panel3.Controls.Add(this.textBoxAmountRub);
             this.panel3.Controls.Add(this.textBoxAmountEuro);
             this.panel3.Controls.Add(this.textBoxAmountUsd);
-            this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Controls.Add(this.button1);
+            this.panel3.Controls.Add(this.buttonOpenRubForm);
+            this.panel3.Controls.Add(this.buttonOpenEuroForm);
+            this.panel3.Controls.Add(this.buttonOpenUsdForm);
             this.panel3.Controls.Add(this.label8);
             this.panel3.Controls.Add(this.textBoxTotalAmountByn);
             this.panel3.Controls.Add(this.label7);
@@ -195,114 +195,15 @@
             this.panel3.Size = new System.Drawing.Size(462, 425);
             this.panel3.TabIndex = 11;
             // 
-            // label6
+            // buttonCountTotalAmountByn
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.label6.Location = new System.Drawing.Point(23, 12);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(249, 20);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "Посчитаем сколько у нас денег";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(98, 279);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(61, 17);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "ИТОГО:";
-            // 
-            // textBoxTotalAmountByn
-            // 
-            this.textBoxTotalAmountByn.Location = new System.Drawing.Point(186, 279);
-            this.textBoxTotalAmountByn.Name = "textBoxTotalAmountByn";
-            this.textBoxTotalAmountByn.ReadOnly = true;
-            this.textBoxTotalAmountByn.Size = new System.Drawing.Size(100, 20);
-            this.textBoxTotalAmountByn.TabIndex = 4;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label8.Location = new System.Drawing.Point(304, 279);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 17);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "бел.рублей";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(27, 55);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Долларовые счета";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(27, 99);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(132, 29);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Евровые счета";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(27, 144);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 29);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "Счета в рос.рублях";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // textBoxAmountUsd
-            // 
-            this.textBoxAmountUsd.Location = new System.Drawing.Point(186, 60);
-            this.textBoxAmountUsd.Name = "textBoxAmountUsd";
-            this.textBoxAmountUsd.ReadOnly = true;
-            this.textBoxAmountUsd.Size = new System.Drawing.Size(100, 20);
-            this.textBoxAmountUsd.TabIndex = 9;
-            // 
-            // textBoxAmountEuro
-            // 
-            this.textBoxAmountEuro.Location = new System.Drawing.Point(186, 107);
-            this.textBoxAmountEuro.Name = "textBoxAmountEuro";
-            this.textBoxAmountEuro.ReadOnly = true;
-            this.textBoxAmountEuro.Size = new System.Drawing.Size(100, 20);
-            this.textBoxAmountEuro.TabIndex = 10;
-            // 
-            // textBoxAmountRub
-            // 
-            this.textBoxAmountRub.Location = new System.Drawing.Point(186, 152);
-            this.textBoxAmountRub.Name = "textBoxAmountRub";
-            this.textBoxAmountRub.ReadOnly = true;
-            this.textBoxAmountRub.Size = new System.Drawing.Size(100, 20);
-            this.textBoxAmountRub.TabIndex = 11;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label9.Location = new System.Drawing.Point(304, 63);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(71, 17);
-            this.label9.TabIndex = 12;
-            this.label9.Text = "долларов";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label10.Location = new System.Drawing.Point(304, 111);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(39, 17);
-            this.label10.TabIndex = 13;
-            this.label10.Text = "евро";
+            this.buttonCountTotalAmountByn.Location = new System.Drawing.Point(186, 334);
+            this.buttonCountTotalAmountByn.Name = "buttonCountTotalAmountByn";
+            this.buttonCountTotalAmountByn.Size = new System.Drawing.Size(100, 38);
+            this.buttonCountTotalAmountByn.TabIndex = 15;
+            this.buttonCountTotalAmountByn.Text = "РАССЧИТАТЬ";
+            this.buttonCountTotalAmountByn.UseVisualStyleBackColor = true;
+            this.buttonCountTotalAmountByn.Click += new System.EventHandler(this.buttonCountTotalAmountByn_Click);
             // 
             // label11
             // 
@@ -314,15 +215,117 @@
             this.label11.TabIndex = 14;
             this.label11.Text = "рос.рублей";
             // 
-            // buttonCountTotalAmountByn
+            // label10
             // 
-            this.buttonCountTotalAmountByn.Location = new System.Drawing.Point(186, 334);
-            this.buttonCountTotalAmountByn.Name = "buttonCountTotalAmountByn";
-            this.buttonCountTotalAmountByn.Size = new System.Drawing.Size(100, 38);
-            this.buttonCountTotalAmountByn.TabIndex = 15;
-            this.buttonCountTotalAmountByn.Text = "РАССЧИТАТЬ";
-            this.buttonCountTotalAmountByn.UseVisualStyleBackColor = true;
-            this.buttonCountTotalAmountByn.Click += new System.EventHandler(this.buttonCountTotalAmountByn_Click);
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label10.Location = new System.Drawing.Point(304, 111);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(39, 17);
+            this.label10.TabIndex = 13;
+            this.label10.Text = "евро";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label9.Location = new System.Drawing.Point(304, 63);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(71, 17);
+            this.label9.TabIndex = 12;
+            this.label9.Text = "долларов";
+            // 
+            // textBoxAmountRub
+            // 
+            this.textBoxAmountRub.Location = new System.Drawing.Point(186, 152);
+            this.textBoxAmountRub.Name = "textBoxAmountRub";
+            this.textBoxAmountRub.ReadOnly = true;
+            this.textBoxAmountRub.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAmountRub.TabIndex = 11;
+            // 
+            // textBoxAmountEuro
+            // 
+            this.textBoxAmountEuro.Location = new System.Drawing.Point(186, 107);
+            this.textBoxAmountEuro.Name = "textBoxAmountEuro";
+            this.textBoxAmountEuro.ReadOnly = true;
+            this.textBoxAmountEuro.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAmountEuro.TabIndex = 10;
+            // 
+            // textBoxAmountUsd
+            // 
+            this.textBoxAmountUsd.Location = new System.Drawing.Point(186, 60);
+            this.textBoxAmountUsd.Name = "textBoxAmountUsd";
+            this.textBoxAmountUsd.ReadOnly = true;
+            this.textBoxAmountUsd.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAmountUsd.TabIndex = 9;
+            // 
+            // buttonOpenRubForm
+            // 
+            this.buttonOpenRubForm.Location = new System.Drawing.Point(27, 144);
+            this.buttonOpenRubForm.Name = "buttonOpenRubForm";
+            this.buttonOpenRubForm.Size = new System.Drawing.Size(132, 29);
+            this.buttonOpenRubForm.TabIndex = 8;
+            this.buttonOpenRubForm.Text = "Счета в рос.рублях";
+            this.buttonOpenRubForm.UseVisualStyleBackColor = true;
+            this.buttonOpenRubForm.Click += new System.EventHandler(this.buttonOpenRubForm_Click);
+            // 
+            // buttonOpenEuroForm
+            // 
+            this.buttonOpenEuroForm.Location = new System.Drawing.Point(27, 99);
+            this.buttonOpenEuroForm.Name = "buttonOpenEuroForm";
+            this.buttonOpenEuroForm.Size = new System.Drawing.Size(132, 29);
+            this.buttonOpenEuroForm.TabIndex = 7;
+            this.buttonOpenEuroForm.Text = "Евровые счета";
+            this.buttonOpenEuroForm.UseVisualStyleBackColor = true;
+            this.buttonOpenEuroForm.Click += new System.EventHandler(this.buttonOpenEuroForm_Click);
+            // 
+            // buttonOpenUsdForm
+            // 
+            this.buttonOpenUsdForm.Location = new System.Drawing.Point(27, 55);
+            this.buttonOpenUsdForm.Name = "buttonOpenUsdForm";
+            this.buttonOpenUsdForm.Size = new System.Drawing.Size(132, 29);
+            this.buttonOpenUsdForm.TabIndex = 6;
+            this.buttonOpenUsdForm.Text = "Долларовые счета";
+            this.buttonOpenUsdForm.UseVisualStyleBackColor = true;
+            this.buttonOpenUsdForm.Click += new System.EventHandler(this.buttonOpenUsdForm_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label8.Location = new System.Drawing.Point(304, 279);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(83, 17);
+            this.label8.TabIndex = 5;
+            this.label8.Text = "бел.рублей";
+            // 
+            // textBoxTotalAmountByn
+            // 
+            this.textBoxTotalAmountByn.Location = new System.Drawing.Point(186, 279);
+            this.textBoxTotalAmountByn.Name = "textBoxTotalAmountByn";
+            this.textBoxTotalAmountByn.ReadOnly = true;
+            this.textBoxTotalAmountByn.Size = new System.Drawing.Size(100, 20);
+            this.textBoxTotalAmountByn.TabIndex = 4;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label7.Location = new System.Drawing.Point(98, 279);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(61, 17);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "ИТОГО:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.label6.Location = new System.Drawing.Point(23, 12);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(249, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Посчитаем сколько у нас денег";
             // 
             // Form1
             // 
@@ -367,9 +370,9 @@
         private System.Windows.Forms.TextBox textBoxAmountRub;
         private System.Windows.Forms.TextBox textBoxAmountEuro;
         private System.Windows.Forms.TextBox textBoxAmountUsd;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonOpenRubForm;
+        private System.Windows.Forms.Button buttonOpenEuroForm;
+        private System.Windows.Forms.Button buttonOpenUsdForm;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;

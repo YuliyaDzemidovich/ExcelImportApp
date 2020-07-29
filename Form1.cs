@@ -50,5 +50,23 @@ namespace ExcelImportApp
 
             textBoxTotalAmountByn.Text = totalBynAmount.ToString();
         }
+
+        private void buttonOpenUsdForm_Click(object sender, EventArgs e)
+        {
+            Form usdForm = new FormUsdAccounts(this);
+            usdForm.Show();
+        }
+
+        private void buttonOpenEuroForm_Click(object sender, EventArgs e)
+        {
+            Form eurForm = new FormEuroAccounts(this);
+            eurForm.Show();
+        }
+
+        private void buttonOpenRubForm_Click(object sender, EventArgs e)
+        {
+            Form rubForm = new FormRubAccounts(this);
+            rubForm.Show();
+        }
     }
 }
